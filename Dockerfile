@@ -14,4 +14,5 @@ RUN apt-get autoremove -y && \
 EXPOSE 6789
 VOLUME /config
 
-CMD ["nzbget", "-s"]
+
+CMD tail -f /dev/null

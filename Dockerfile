@@ -15,4 +15,4 @@ EXPOSE 6789
 VOLUME /config
 
 
-CMD ["./nzbget/nzbget", "-s", "-o outputmode=log"]
+CMD ["./nzbget/nzbget", "-s", "-o", "outputmode=log"]

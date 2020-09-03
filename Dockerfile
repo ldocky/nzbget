@@ -15,4 +15,4 @@ EXPOSE 6789
 VOLUME /config
 
 
-CMD tail -f /dev/null
+CMD ["./nzbget/nzbget", "-S"]

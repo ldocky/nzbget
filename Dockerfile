@@ -15,4 +15,4 @@ EXPOSE 6789
 VOLUME /config
 
 
-CMD ["./nzbget/nzbget", "-S"]
+CMD ["./nzbget/nzbget", "-s"]
